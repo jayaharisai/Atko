@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito", sans-serif;
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.main-container{
+    width: 422px;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    animation: fade-in 1s ease-out;
+    
+}
+
+.prime-input input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.prime-input{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ABABAB;
+    width: 186px;
+    border-radius: 10px;
+}
+
+.label{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.error{
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FF5555;
+}
+
+.inputs-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.sub-label{
+    font-size: 12px;
+    color: #5F5F5F;
+}
+
+.prime-btn{
+    background-color: #212121;
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.prime-btn:hover{
+    transform: scale(1.01);
+    transition: 200ms;
+}
+
+.prime-btn:active{
+    transform: scale(0.98);
+    transition: 100ms;
+}
+.tc{
+    font-size: 12px;
+}

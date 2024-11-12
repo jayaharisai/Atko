@@ -1,0 +1,32 @@
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.expression{
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.exp-message{
+    font-size: 38px;
+}
+
+.error-code{
+    font-size: 18px;
+}
+
+.error-container{
+    width: 500px;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
